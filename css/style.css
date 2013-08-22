@@ -1,0 +1,347 @@
+*
+{
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+h1, h2
+{
+	color: #666666;
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 1em;
+}
+
+ul, li
+{
+	list-style-type: none;
+}
+
+.zebra
+{
+}
+
+a, img
+{
+	border: none;
+}
+
+a.button
+{
+	background-color: #f6f6f6;
+	border-color: #cccccc;
+	border-radius: 5px; 
+	border-style: solid;
+	border-width: 1px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	color: #444499;
+	display: block;
+	font-size: 8pt;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+}
+
+	a.button:hover
+	{
+		background-color: #e6e6e6;
+	}
+
+select.big
+{
+	height: 30px;
+}
+
+body
+{
+	background-color: #333333;
+	padding: 0px;
+}
+
+div.command_data
+{
+	display: none;
+}
+
+div#container
+{
+	background-color: #ffffff;
+	margin: 30px auto;
+	padding: 20px;
+	width: 1280px;
+}
+
+div#header
+{
+	background-color: #f0f0f0;
+	height: 50px;
+	margin: -20px -20px 20px -20px;
+	padding: 20px 20px 10px 20px;
+	width: 1280px;
+}
+
+	div#headercontent
+	{
+		margin: 0px auto;
+		width: 100%;
+	}
+
+	div#headercontent h1
+	{
+		color: #ffffff;
+		font-size: 24pt;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	div#logo
+	{
+		float: left;
+		margin-top: -15px;
+		width: 400px;
+	}
+
+	div#headerbuttons
+	{
+		float: right;
+		width: 600px;
+	}
+
+		div#headerbuttons ul
+		{
+			float: right;
+		}
+
+		div#headerbuttons ul li
+		{
+			float: left;
+		}
+
+div#titleblock
+{
+	margin-bottom: 15px;
+}
+
+div#left
+{
+	float: left;
+	width: 940px;
+}
+
+div#mainblock
+{
+	border: solid 3px #f6f6f6;
+	margin: -10px;
+	padding: 10px;
+}
+
+div#right
+{
+	border: solid 3px #f6f6f6;
+	margin-left: 950px;
+	padding: 5px 10px 5px 10px;
+	width: 300px;
+}
+
+ul.commandmenu
+{
+}
+
+	ul.commandmenu li
+	{
+		display: block;
+		width: 100%;
+	}
+
+		ul.commandmenu li a
+		{
+			color: #ffffff;
+			display: block;
+			text-decoration: none;
+		}
+
+		ul.commandmenu li a:hover
+		{
+			background-color: #e0e0e0;
+			color: #000000;
+		}
+
+/* Options */
+div.options div.buttons
+{
+}
+
+	div.options div.buttons span
+	{
+		background-image: linear-gradient(bottom, rgb(6,58,160) 0%, rgb(1,135,197) 58%);
+		background-image: -o-linear-gradient(bottom, rgb(6,58,160) 0%, rgb(1,135,197) 58%);
+		background-image: -moz-linear-gradient(bottom, rgb(6,58,160) 0%, rgb(1,135,197) 58%);
+		background-image: -webkit-linear-gradient(bottom, rgb(6,58,160) 0%, rgb(1,135,197) 58%);
+		background-image: -ms-linear-gradient(bottom, rgb(6,58,160) 0%, rgb(1,135,197) 58%);
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0, rgb(6,58,160)),
+			color-stop(0.58, rgb(1,135,197))
+		);
+		border: solid 1px #ffffff;
+		border-radius: 5px;
+		color: #ffffff;
+		cursor: pointer;
+		display: block;
+		font-size: 11pt;
+		padding: 5px 10px 5px 10px;
+		text-align: center;
+		width: 50px;
+	}
+
+		div.options div.buttons span:hover
+		{
+			background-image: linear-gradient(bottom, rgb(10,74,194) 0%, rgb(0,157,224) 58%);
+			background-image: -o-linear-gradient(bottom, rgb(10,74,194) 0%, rgb(0,157,224) 58%);
+			background-image: -moz-linear-gradient(bottom, rgb(10,74,194) 0%, rgb(0,157,224) 58%);
+			background-image: -webkit-linear-gradient(bottom, rgb(10,74,194) 0%, rgb(0,157,224) 58%);
+			background-image: -ms-linear-gradient(bottom, rgb(10,74,194) 0%, rgb(0,157,224) 58%);
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0, rgb(10,74,194)),
+				color-stop(0.58, rgb(0,157,224))
+			);
+		}
+
+div.optionblock.ui-tabs-panel
+{
+	padding: 1em 10px 1em 5px;
+}
+
+div.optionblock li
+{
+	margin-left: 15px;
+	text-indent: -15px;
+}
+
+div.optionblock div.icons
+{
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	vertical-align: top;
+	width: 48px;
+}
+
+div.optionrow
+{
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 5px 0px 5px 0px;
+	vertical-align: top;
+	width: 640px;
+}
+
+	div.optionrow span
+	{
+		font-size: 12pt;
+		font-weight: normal;
+	}
+
+	div.optionrow select
+	{
+		font-size: 10pt;
+	}
+
+div.optionrow.edit
+{
+}
+
+	div.optionrow.edit span.conjunction, div.optionrow.edit span.then, div.optionrow.edit span.and
+	{
+		font-weight: bold;
+	}
+
+div.condition, div.outcome
+{
+	display: inline;
+}
+
+/* Actions */
+div.action
+{
+}
+
+	div.action .add
+	{
+		color: #008000;
+		font-size: 14pt;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+/* Sentences */
+span[data-word="inputbox"]
+{
+	font-style: italic;
+}
+
+	span[data-word="inputbox"] + span[data-word="inputbox"]:before
+	{
+		content: ' or ';
+		font-style: normal;
+	}
+
+	span[data-word="inputbox"] input[type="text"]
+	{
+		font-size: 10pt;
+	}
+
+span[data-word="textbox"]
+{
+	font-style: italic;
+}
+
+	span[data-word="textbox"] + span[data-word="textbox"]:before
+	{
+		content: ' or ';
+		font-style: normal;
+	}
+
+	span[data-word="textbox"] + span[data-word="textbox"].linked:before
+	{
+		content: ' and ';
+		font-style: normal;
+	}
+
+	span[data-word="textbox"] textarea
+	{
+		clear: both;
+		display: block;
+		font-size: 10pt;
+		font-style: normal;
+		height: 50px;
+		margin: 5px 0px 5px 0px;
+		width: 100%;
+	}
+
+span[data-word="coordinates"]
+{
+}
+
+	span[data-word="coordinates"]:before
+	{
+		content: ' with coordinates ';
+	}
+
+	span[data-word="coordinates"] input
+	{
+		font-size: 9pt;
+		width: 40px;
+	}
